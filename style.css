@@ -18,3 +18,17 @@
 
 /* Portrait alignment fix: long personal biography must start alongside portrait. */
 @media(min-width:561px){.bio-portrait{align-self:start}}
+
+
+/* Verified five-destination network; only layout and new public profile links. */
+.network-five{padding-bottom:38px}
+.network-five-hub{display:flex;align-items:center;gap:22px;padding:27px 31px;margin:31px 0 17px;background:linear-gradient(118deg,#18383e,#0b1c25 66%);border:1px solid var(--teal);border-left:4px solid var(--gold);border-radius:13px;box-shadow:0 10px 34px rgba(0,0,0,.14)}
+.network-five-emblem{flex:0 0 56px;display:grid;place-items:center;width:56px;height:56px;border:1px solid var(--gold);border-radius:14px;font-size:35px;color:var(--gold)}
+.network-five-hub-content{display:flex;flex:1;flex-direction:column;gap:8px;min-width:0}.network-five-hub-content strong{font-size:27px;color:var(--teal);line-height:1.2}
+.network-five-hub-link{color:var(--bg);background:var(--teal);padding:13px 15px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}
+.network-five-hub-link:hover{filter:brightness(1.08)}.network-five-hub-link:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.network-five-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:0}
+.network-five-grid .network-tile{min-height:204px;padding:25px 27px}.network-five-grid .network-tile strong{font-size:21px}
+.network-five-footnote{margin-top:22px;font-size:12px;color:var(--muted);line-height:1.55}
+@media(max-width:780px){.network-five-hub{flex-wrap:wrap;padding:23px;gap:16px}.network-five-hub-link{margin-left:72px}.network-five-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:630px){.network-five-grid{grid-template-columns:1fr}.network-five-hub{gap:13px}.network-five-emblem{flex:0 0 42px;width:42px;height:42px;font-size:27px}.network-five-hub-content strong{font-size:22px}.network-five-hub-link{width:100%;margin-left:0;text-align:center}.network-five-grid .network-tile{min-height:auto;padding:22px}}
