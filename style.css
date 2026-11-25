@@ -15,3 +15,6 @@
 
 /* Cross-link network: additive, bilingual, static, responsive */
 .network-section{scroll-margin-top:105px;margin:65px 0 0;padding:0 0 35px}.network-section h2{margin:15px 0}.network-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:28px}.network-tile{display:flex;flex-direction:column;gap:13px;padding:26px 22px;background:linear-gradient(145deg,#142f39,#0b1720);border:1px solid var(--edge);border-radius:10px;text-decoration:none;min-width:0;transition:border-color .15s,transform .15s}.network-tile:hover{border-color:var(--teal);transform:translateY(-2px)}.network-tile:focus-visible{outline:2px solid var(--gold);outline-offset:4px}.network-index{color:var(--gold);font-size:10px;letter-spacing:.14em;font-weight:700}.network-tile strong{font-size:19px;color:var(--teal);line-height:1.35}.network-description{font-size:14px;color:var(--muted);line-height:1.65;flex:1}.network-link{color:var(--white);font-weight:650;font-size:13px;padding-top:9px}@media(max-width:900px){.network-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.network-grid{grid-template-columns:1fr}.network-tile{padding:22px}.network-section{margin-top:44px}}
+
+/* Portrait alignment fix: long personal biography must start alongside portrait. */
+@media(min-width:561px){.bio-portrait{align-self:start}}
