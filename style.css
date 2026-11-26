@@ -42,3 +42,13 @@
 .tango-ai-expand a{color:#7de3e1;text-decoration:underline;text-underline-offset:4px}
 html[lang=de] .tango-ai-expand a[lang=en],html[lang=en] .tango-ai-expand a[lang=de]{display:none}
 @media(max-width:600px){.tango-ai-images img{min-width:780px}.tango-ai-expand{font-size:.92rem}}
+
+/* Approved additive gratitude section, all existing styling preserved. */
+.gratitude-section{scroll-margin-top:94px}
+.gratitude-panel{max-width:980px;margin:2.1rem auto 0;padding:clamp(1.3rem,4vw,3.8rem);border:1px solid rgba(100,217,208,.42);border-radius:24px;background:linear-gradient(145deg,rgba(18,47,63,.95),rgba(7,24,38,.96));box-shadow:0 20px 60px rgba(0,0,0,.2);position:relative}
+.gratitude-symbol{color:#d7b575;font-size:2rem;margin-bottom:.6rem}
+.gratitude-quote{max-width:790px}
+.gratitude-paragraph{line-height:1.9;font-size:clamp(1rem,1.35vw,1.2rem);margin:0 0 1.5rem;color:#eff8fa}
+.gratitude-paragraph:first-child{font-weight:700;color:#e3c18a}
+.gratitude-origin{font-size:.875rem;line-height:1.65;color:#a8bec8;border-top:1px solid rgba(134,191,191,.25);padding-top:1.1rem;margin-top:.7rem}
+@media(max-width:600px){.gratitude-panel{border-radius:14px}.gratitude-paragraph{line-height:1.8}}
