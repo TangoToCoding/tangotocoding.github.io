@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img">
+<defs><linearGradient id="bg" x2="0.9" y2="1"><stop stop-color="#051b31"/><stop offset="1" stop-color="#143a53"/></linearGradient><marker id="arr" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8 Z" fill="#83e9e9"/></marker></defs>
+<rect width="1600" height="1000" rx="26" fill="url(#bg)"/>
+<text x="65" y="75" fill="white" font-size="48" font-family="Arial" font-weight="bold">Der geschlossene KI-Engineering-Kreislauf</text>
+<text x="65" y="121" fill="#8fe7e5" font-size="23" font-family="Arial">Kontrollierte Autonomie · Fernsteuerung · Rücklesung · Menschliche Freigabe</text>
+<path d="M505 335 H557" stroke="#83e9e9" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<path d="M1044 335 H1094" stroke="#83e9e9" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<path d="M1350 460 V563" stroke="#83e9e9" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<path d="M1094 680 H1044" stroke="#83e9e9" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<path d="M557 680 H505" stroke="#83e9e9" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<path d="M75 685 H25 V200 H75" stroke="#e8bf83" stroke-width="6" fill="none" marker-end="url(#arr)"/>
+<rect x="65" y="205" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="90" y="255" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">01  AUFTRAG UND FREIGABE</text>
+<text x="90" y="313" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">Auftraggeber / iPhone</text>
+<text x="90" y="360" font-family="Arial" font-size="20" fill="#d0e6f0">Ziel definieren, Prioritäten wählen,</text>
+<text x="90" y="389" font-family="Arial" font-size="20" fill="#d0e6f0">Veröffentlichungen freigeben.</text>
+<rect x="580" y="205" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="605" y="255" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">02  ORCHESTRIERUNG</text>
+<text x="605" y="313" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">ChatGPT</text>
+<text x="605" y="360" font-family="Arial" font-size="20" fill="#d0e6f0">Planen, Werkzeuge wählen, Aufgaben</text>
+<text x="605" y="389" font-family="Arial" font-size="20" fill="#d0e6f0">koordinieren und Qualität bewerten.</text>
+<rect x="1095" y="205" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="1120" y="255" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">03  FERNZUGRIFF</text>
+<text x="1120" y="313" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">Router / VPN / Fernstart</text>
+<text x="1120" y="360" font-family="Arial" font-size="20" fill="#d0e6f0">Gesicherter Fernzugriff, unterstützter</text>
+<text x="1120" y="389" font-family="Arial" font-size="20" fill="#d0e6f0">Fernstart, begrenzte Boot-Wächter.</text>
+<rect x="1095" y="550" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="1120" y="600" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">04  UMSETZUNG</text>
+<text x="1120" y="658" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">Desktop Commander / Windows</text>
+<text x="1120" y="705" font-family="Arial" font-size="20" fill="#d0e6f0">PowerShell, Git, Windows-Bridge, optional</text>
+<text x="1120" y="734" font-family="Arial" font-size="20" fill="#d0e6f0">Claude Code, MCPs, Playwright und</text>
+<text x="1120" y="763" font-family="Arial" font-size="20" fill="#d0e6f0">WordPress.</text>
+<rect x="580" y="550" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="605" y="600" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">05  PRÜFUNG</text>
+<text x="605" y="658" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">Tests / Rücklesung</text>
+<text x="605" y="705" font-family="Arial" font-size="20" fill="#d0e6f0">Ergebnis abholen, Bytes und Browser</text>
+<text x="605" y="734" font-family="Arial" font-size="20" fill="#d0e6f0">prüfen, Grenzen und Ausgangsstände</text>
+<text x="605" y="763" font-family="Arial" font-size="20" fill="#d0e6f0">schützen.</text>
+<rect x="65" y="550" width="450" height="255" rx="22" fill="#123046" stroke="#7ee1df" stroke-width="3"/>
+<text x="90" y="600" font-family="Arial" font-size="19" font-weight="bold" fill="#75ece6">06  RÜCKMELDUNG</text>
+<text x="90" y="658" font-family="Arial" font-size="29" font-weight="bold" fill="#fff">Nachweis → Auftraggeber</text>
+<text x="90" y="705" font-family="Arial" font-size="20" fill="#d0e6f0">Fertige Artefakte, Haltepunkte und</text>
+<text x="90" y="734" font-family="Arial" font-size="20" fill="#d0e6f0">Entscheidungen gehen an den Menschen</text>
+<text x="90" y="763" font-family="Arial" font-size="20" fill="#d0e6f0">zurück.</text>
+<text x="65" y="964" font-size="20" font-family="Arial" fill="#e1c48b">Praxisgeprüft bei autorisierten Aufgaben im aktiven Antwortdurchgang. Kein Anspruch auf unbegrenzte Hintergr</text></svg>
