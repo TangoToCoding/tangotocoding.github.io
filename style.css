@@ -98,3 +98,9 @@ html[lang=de] .collaboration-evidence p[lang=en],html[lang=en] .collaboration-ev
 
 /* Artifact continuity / verified handoff case */
 #verified-artifact-continuity{padding-top:76px;padding-bottom:72px}#verified-artifact-continuity .continuity-visual{margin:28px 0 25px;max-width:1080px}#verified-artifact-continuity .continuity-visual img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid rgba(123,218,221,.25);box-shadow:0 12px 45px rgba(0,0,0,.24)}#verified-artifact-continuity .continuity-visual figcaption{color:var(--muted);font-size:12px;line-height:1.55;margin-top:8px}#verified-artifact-continuity .case-note{max-width:900px;line-height:1.7}
+
+/* Approved fifth architecture case study; existing styles retained */
+#case-7f .case-visual{display:block;width:100%;max-width:440px;height:auto;aspect-ratio:1/1;object-fit:cover;border:1px solid rgba(120,226,239,.28);border-radius:16px;margin:12px auto 22px;background:#071929}
+#case-7f .case-further{font-size:.84rem;margin-top:17px}
+#case-7f .case-further a{color:inherit;text-decoration:underline;text-underline-offset:4px}
+#case-7f .case-further a:hover{color:#74ebee}
