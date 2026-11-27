@@ -95,3 +95,6 @@ html[lang=de] .collaboration-evidence p[lang=en],html[lang=en] .collaboration-ev
 .collaboration-actions{display:flex;flex-wrap:wrap;gap:12px}
 .collaboration-actions .primary,.collaboration-actions .secondary{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:12px 20px}
 @media(max-width:700px){.collaboration-grid{grid-template-columns:1fr}.collaboration-card{padding:19px}.collaboration-actions a{width:100%}}
+
+/* Artifact continuity / verified handoff case */
+#verified-artifact-continuity{padding-top:76px;padding-bottom:72px}#verified-artifact-continuity .continuity-visual{margin:28px 0 25px;max-width:1080px}#verified-artifact-continuity .continuity-visual img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid rgba(123,218,221,.25);box-shadow:0 12px 45px rgba(0,0,0,.24)}#verified-artifact-continuity .continuity-visual figcaption{color:var(--muted);font-size:12px;line-height:1.55;margin-top:8px}#verified-artifact-continuity .case-note{max-width:900px;line-height:1.7}
